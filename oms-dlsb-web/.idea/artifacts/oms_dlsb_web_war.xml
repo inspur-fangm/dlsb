@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="oms-dlsb-web:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="oms-dlsb-web-0.0.6.war">
+      <element id="artifact" artifact-name="oms-dlsb-web:war exploded" />
+    </root>
+  </artifact>
+</component>

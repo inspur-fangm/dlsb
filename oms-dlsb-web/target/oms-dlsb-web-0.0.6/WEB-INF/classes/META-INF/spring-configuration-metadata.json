@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.dc.common.DclxCfg",
+      "name": "oms.dlsb",
+      "type": "com.dc.common.DclxCfg"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.dc.common.DclxCfg",
+      "name": "oms.dlsb.dclx",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.String>>"
+    }
+  ]
+}

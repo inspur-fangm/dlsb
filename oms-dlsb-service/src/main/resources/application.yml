@@ -1,0 +1,160 @@
+#application.yml
+server:
+  port: 8073
+ # context-path: /base
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  datasource:
+    druid:
+      #jdbc配置
+      url: jdbc:oracle:thin:@10.52.2.117:1521:orcl
+      #url: jdbc:oracle:thin:@10.52.6.74:1521:orcl
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      username: rm
+      password: rm_qianchi
+#      url: jdbc:oracle:thin:@10.52.2.117:1521:orcl
+#      driver-class-name: oracle.jdbc.driver.OracleDriver
+#      username: oms
+#      password: oms2017
+      #连接池配置
+      initial-size: 10
+      max-active: 50
+      min-idle: 10
+      #获取连接等待超时
+      max-wait: 60000
+      #超时是否回收
+      remove-abandoned: true
+      #超时限制多长时间
+      remove-abandoned-timeout: 1800
+      #配置一个连接在池中最小生存的时间，单位是毫秒
+      min-evictable-idle-time-millis: 60000
+      #配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      time-between-eviction-runs-millis: 60000
+      #用来检测连接是否有效的sql，要求是一个查询语句
+      validation-query: SELECT 1 FROM DUAL
+      #申请连接的时候检测
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      #打开PSCache，并且指定每个连接上PSCache的大小
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 50
+      #监控统计用的filter:stat 日志用的filter:log4j 防御SQL注入的filter:wall
+      filters: config,wall,log4j
+      filter:
+        stat:
+          log-slow-sql: true
+      #监控配置
+      web-stat-filter:
+        enabled: true
+        url-pattern: /*
+        profile-enable: true
+        exclusions: '*.js,*.gif,*.jpg,*.bmp,*.png,*.css,*.ico,/druid/*'
+        session-stat-enable: true
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        login-username: druid
+        login-password: druid
+        reset-enable: true
+      aop-patterns: com.dc.dlsb
+  freemarker:
+    charset: UTF-8
+    allow-request-override: false
+    allow-session-override: false
+    cache: true
+    check-template-location: true
+    content-type: text/html
+    enabled: true
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: true
+    prefer-file-system-access: true
+    suffix: .ftl
+    template-loader-path: classpath:/templates/ftl
+  devtools:
+    restart:
+      enabled: true
+     # additional-paths: src/main/java
+  cache:
+    ehcache:
+      config: classpath:ehcache.xml
+  application:
+    name: oms-dlsb-service
+mybatis:
+  mapper-locations: classpath:com/dc/**/mapper/*.xml
+  type-aliases-package: com.dc.**.model
+  configuration:
+    #列别名使用
+    use-column-label: true
+    #全局缓存
+    cache-enabled: true
+    #延时加载
+    aggressive-lazy-loading: true
+    #自定生成主键
+    use-generated-keys: false
+    #未知列检查
+    auto-mapping-unknown-column-behavior: warning
+    #超时
+    default-statement-timeout: 25000
+pagehelper:
+  reasonable: true
+  #pagesize为0，则查询所有记录
+  row-bounds-with-count: true
+
+logging:
+  config: classpath:logback.xml
+swagger2:
+  enabled: true
+  terms-of-service-url: http://www.baidu.com
+  title: 电量上报
+  contact:
+    name: 信和科技
+#  global-operation-parameters[0]:
+#    name: APP_ID
+#    description: 资源id
+#    modelRef: string
+#    parameterType: header
+#    required: true
+#  global-operation-parameters[1]:
+#      name: APP_ID
+#      description: 资源id
+#      modelRef: string
+#      parameterType: header
+#      required: true
+  base-package: com.dc.dlsb.rest
+eureka:
+  instance:
+    prefer-ip-address: true
+    status-page-url: http://${spring.cloud.client.ipAddress}:${server.port}/swagger-ui.html
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${server.port}
+  client:
+    service-url:
+      #defaultZone: http://dechi:dechi@127.0.0.1:8761/eureka/
+      defaultZone: http://dechi:dechi@10.52.2.117:8761/eureka/
+      #defaultZone: http://dechi:dechi@localhost:8761/eureka/
+    #defaultZone: http://dechi:dechi@10.52.6.74:8761/eureka/
+#      defaultZone: http://${security.user.name}:${security.user.password}@localhost:8761/eureka/
+security:
+  basic:
+    enabled: true
+  user:
+    name: dechi
+    password: dechi
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+      default:
+        execution:
+          isolation:
+            thread:
+              timeoutInMilliseconds: 10000    
+dc:
+  api:
+    base:
+      key: dechi
+      pw: dechi 
+#sercive层常量配置

@@ -1,0 +1,3 @@
+09:40:51 [main] DEBUG CustomMVCConfiguration - 统一编码
+09:40:52 [main] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+09:40:52 [main] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS

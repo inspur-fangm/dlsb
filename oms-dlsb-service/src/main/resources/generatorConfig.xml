@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration  
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"  
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">  
+<generatorConfiguration>  
+	<!-- 代码生成，
+	修改jdbc的jar包位置
+	
+	1.右键工程***_INTERFACE
+	2.run as-Run Configurations-maven build
+	3.新建一个，然后在goal输入：mybatis-generator:generate
+	命令：mybatis-generator:generate  -->
+    <classPathEntry  location="D:\jdbc\ojdbc14.jar"/>  
+    <context id="DB2Tables"  targetRuntime="MyBatis3">  
+    <plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
+        <commentGenerator>  
+            <property name="javaFileEncoding" value="UTF-8"/>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="false" />
+            <property name="suppressDate" value="true" />  
+        </commentGenerator>  
+        <!--数据库URL -->  
+        <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver" connectionURL="jdbc:oracle:thin:@10.52.2.117:1521:orcl" userId="oms" password="oms2017">
+        </jdbcConnection>  
+        <javaTypeResolver>  
+            <property name="forceBigDecimals" value="false"/>  
+        </javaTypeResolver>  
+        <!-- model路径-->  
+        <javaModelGenerator targetPackage="com.dc.iidp.yb.model" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>  
+            <property name="trimStrings" value="true"/>  
+        </javaModelGenerator>  
+        <!-- mapper路径-->  
+        <sqlMapGenerator targetPackage="com.dc.iidp.yb.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>  
+        </sqlMapGenerator>  
+        <!-- Dao路径-->  
+        <javaClientGenerator type="MAPPER" targetPackage="com.dc.iidp.yb.dao" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>  
+        </javaClientGenerator>  
+          
+        <!-- tablename表，domainObjectName 实体--> 
+        <!-- <table tableName="IIDP_RB_DLQK" domainObjectName="IidpRbDlqk"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table> 
+        <table tableName="IIDP_RB_CFXDQK" domainObjectName="IidpRbCfxdqk"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_RB_DMQK" domainObjectName="IidpRbDmqk"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_RB_LSQK" domainObjectName="IidpRbLsqk"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_RB_FHQK" domainObjectName="IidpRbFhqk"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_COMMON_CFG" domainObjectName="IidpCommonCfg"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>-->
+
+        <!--<table tableName="IIDP_DWGM_RB_HEAD" domainObjectName="IidpDwgmRbHead"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_DWGM_RB_SBDSBGM" domainObjectName="IidpDwgmRbSbdsbgm"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_DWGM_RB_TDZJGM" domainObjectName="IidpDwgmRbTdzjgm"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_DLGYQK_DEPT_TABLE_CONFIG" domainObjectName="IidpDlgyqkDeptTableConfig"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_RB_HEAD" domainObjectName="IidpRbHead"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>-->
+
+        <!--<table tableName="IIDP_ZB_HEAD" domainObjectName="IidpZbHead"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_ZB_DLQK" domainObjectName="IidpZbDlqk"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_ZB_CFXDQK" domainObjectName="IidpZbCfxdqk"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_ZB_DMQK" domainObjectName="IidpZbDmqk"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_ZB_LSQK" domainObjectName="IidpZbLsqk"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table >-->
+
+        <!--<table tableName="IIDP_YB_HEAD" domainObjectName="IidpYbHead"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_YB_DLQK" domainObjectName="IidpYbDlqk"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_YB_CFXDQK" domainObjectName="IidpYbCfxdqk"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_YB_DMQK" domainObjectName="IidpYbDmqk"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_YB_LSQK" domainObjectName="IidpYbLsqk"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_YB_JZLYXSS" domainObjectName="IidpYbJzlyxss"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_GZYC_YB_MX" domainObjectName="IidpGzycYbMx"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="IIDP_GZYC_YB_HEAD" domainObjectName="IidpGzycYbHead"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>-->
+        <table tableName="IIDP_YB_JZLYXSS" domainObjectName="IidpYbJzlyxss"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+    </context>
+</generatorConfiguration>  

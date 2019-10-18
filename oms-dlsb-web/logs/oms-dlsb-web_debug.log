@@ -1,0 +1,3 @@
+09:43:51 [main] DEBUG ShiroAutoConfiguration - shiro-filters:{/resources/**=anon, /static/**=anon, /webjars/*=anon, /logout.html=logout, /login.html=authc, /register.html=anon, /denied.html=anon, /view/error/**=anon, /**/withoutAuth/**=anon, /test.html=anon, /webjars/**=anon, /**=authc}
+09:43:52 [main] DEBUG CustomMVCConfiguration - 统一编码
+09:43:54 [main] DEBUG ShiroAutoConfiguration - excludePathPatterns:[Ljava.lang.String;@1cc31df

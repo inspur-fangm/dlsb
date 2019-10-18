@@ -1,0 +1,37 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.dc.dlsb.common.DlsbOmsFeignConfiguration",
+      "name": "dc.api.dlsboms",
+      "type": "com.dc.dlsb.common.DlsbOmsFeignConfiguration"
+    },
+    {
+      "sourceType": "com.dc.dlsb.common.DlsbRmFeignConfiguration",
+      "name": "dc.api.dlsbrm",
+      "type": "com.dc.dlsb.common.DlsbRmFeignConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.dc.dlsb.common.DlsbOmsFeignConfiguration",
+      "name": "dc.api.dlsboms.key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dc.dlsb.common.DlsbOmsFeignConfiguration",
+      "name": "dc.api.dlsboms.pw",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dc.dlsb.common.DlsbRmFeignConfiguration",
+      "name": "dc.api.dlsbrm.key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dc.dlsb.common.DlsbRmFeignConfiguration",
+      "name": "dc.api.dlsbrm.pw",
+      "type": "java.lang.String"
+    }
+  ]
+}

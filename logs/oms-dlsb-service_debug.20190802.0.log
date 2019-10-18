@@ -1,0 +1,28 @@
+10:01:12 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+10:01:32 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+10:01:33 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+10:01:33 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+11:13:35 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+11:13:41 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+11:13:42 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+11:13:42 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+14:07:50 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+14:08:01 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+14:08:03 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:08:03 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+14:14:54 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+14:15:08 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+14:15:10 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:15:10 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+14:27:20 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+14:27:26 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+14:27:27 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:27:28 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+15:00:04 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+15:00:14 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+15:00:16 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+15:00:16 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+16:16:45 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+16:16:51 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+17:03:26 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+17:03:32 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码

@@ -1,0 +1,37 @@
+10:00:13 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+10:00:13 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+10:01:05 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+10:01:08 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+10:33:17 [http-nio-8074-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, JZBH, DCBH, JZMC, JZZT, ZJRL, XTZT, CJSJ, CZSJ, CZR, YLZD1, YLZD2, YLZD3, YLZD4, YLZD5, YLZD6, YLZD7, YLZD8, YLZD9, YLZD10 from JZGL_JZXX WHERE ( DCBH = ? and XTZT = ? ) order by jzmc asc 
+10:33:17 [http-nio-8074-exec-9] DEBUG selectByExample - ==> Parameters: 21fdc2c42ed24536b7375cdbfb49310a(String), 0(String)
+10:33:17 [http-nio-8074-exec-9] DEBUG selectByExample - <==      Total: 0
+10:33:49 [http-nio-8074-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, JZBH, DCBH, JZMC, JZZT, ZJRL, XTZT, CJSJ, CZSJ, CZR, YLZD1, YLZD2, YLZD3, YLZD4, YLZD5, YLZD6, YLZD7, YLZD8, YLZD9, YLZD10 from JZGL_JZXX WHERE ( DCBH = ? and XTZT = ? ) order by jzmc asc 
+10:33:49 [http-nio-8074-exec-2] DEBUG selectByExample - ==> Parameters: 8b0dd6103f3d4d9d8e1cb20399c1a3e6(String), 0(String)
+10:33:49 [http-nio-8074-exec-2] DEBUG selectByExample - <==      Total: 0
+10:34:01 [http-nio-8074-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, JZBH, DCBH, JZMC, JZZT, ZJRL, XTZT, CJSJ, CZSJ, CZR, YLZD1, YLZD2, YLZD3, YLZD4, YLZD5, YLZD6, YLZD7, YLZD8, YLZD9, YLZD10 from JZGL_JZXX WHERE ( DCBH = ? and XTZT = ? ) order by jzmc asc 
+10:34:01 [http-nio-8074-exec-10] DEBUG selectByExample - ==> Parameters: 6a0c6ab516804b72b585aa85c37aac4e(String), 0(String)
+10:34:01 [http-nio-8074-exec-10] DEBUG selectByExample - <==      Total: 0
+11:12:54 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+11:12:54 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+11:12:57 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+11:13:01 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+14:07:19 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+14:07:19 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:07:22 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+14:07:26 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+14:14:14 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+14:14:14 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:14:17 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+14:14:22 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+14:26:51 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+14:26:52 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:26:54 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+14:26:58 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+14:59:51 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+14:59:52 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:59:59 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+15:00:04 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+16:16:45 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+16:16:51 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+17:03:26 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+17:03:32 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码

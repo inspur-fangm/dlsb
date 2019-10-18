@@ -1,0 +1,141 @@
+*{
+	font-family: ΢���ź�;
+}
+td{
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.section_title {
+	background-color: #94B6FF;
+	margin: 5px;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.section_title em{
+	display: block;
+	width:16px;
+	height:16px;
+	background: url("../images/common/em_collapse.png") no-repeat;
+	cursor: pointer;
+	float: right;
+	padding: 0 5px 0 0;
+}
+
+.section_title.collapse em{
+	display: block;
+	width:16px;
+	height:16px;
+	background: url("../images/common/em_expand.png") no-repeat;
+	cursor: pointer;
+	float: right;
+	padding: 0 5px 0 0;
+}
+
+
+
+.tablegrid_flat{
+	border: 1px solid #778899;
+}
+
+.tablegrid_flat td {
+	/*border-bottom: 1px dotted #d9d9d9;*/
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	min-height: 20px;
+	padding: 0 4px 0 4px;
+	text-align: center;
+}
+
+.tablegrid_flat th {
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	background-color: #ffe48d;
+	min-height: 24px;
+	font-size: 12px;
+	padding: 0 4px 0 4px;
+	text-align: center;
+}
+
+.tablegrid_flat .datagrid-row,.datagrid-header-row {
+	height: 25px;
+}
+
+.tablegrid_flat .title3{
+	/*text-align: right;*/
+	padding-left: 60px;
+}
+
+.data_val {
+	background-color: #f4f7f0;
+}
+
+.data_cal {
+	background-color: #c5ffac;
+}
+
+.fluid-input {
+	display: inline-block;
+	outline:medium;
+	border: none;
+	color: #000000;
+	background-color: transparent;
+	text-align: center;
+	width: 99%;
+	overflow-x:visible;
+}
+
+.fluid-input:focus{
+  	/*color: #00438a;
+  	border: 1px soild #960;
+  	background: #e5e5e5;
+  	text-align: center;*/
+	border-color: #66AFE9 !important;
+	background: #e5e5e5;
+	outline: medium;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6);
+	box-shadow: inset  0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6);
+}
+
+.report_head{
+	font-size: 12px;
+	padding: 0 10px 0 10px;
+	line-height: 1.5;
+	vertical-align: middle;
+}
+
+.report_head input{
+	display: inline-block;
+	outline:medium;
+	border: none;
+	background-color: transparent;
+}
+
+.report_head_title{
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.5;
+	vertical-align: middle;
+}
+
+.noedit{
+	background-color: #def;
+}
+
+.edit-note{
+	background-color: #f53e3b;
+}
+
+.bg-no1{
+	background-color: #c1f6f7;
+}
+.bg-no2{
+	background-color: #f4f7f0;
+}
+.bg-manual-edit{
+	background-color: #f3f50c;
+}

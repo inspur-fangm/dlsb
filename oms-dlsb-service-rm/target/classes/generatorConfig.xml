@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration  
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"  
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">  
+<generatorConfiguration>  
+	<!-- 代码生成，
+	修改jdbc的jar包位置
+	
+	1.右键工程***_INTERFACE
+	2.run as-Run Configurations-maven build
+	3.新建一个，然后在goal输入：mybatis-generator:generate
+	命令：mybatis-generator:generate  -->
+    <classPathEntry  location="D:\jdbc\ojdbc14.jar"/>  
+    <context id="DB2Tables"  targetRuntime="MyBatis3">  
+    <plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
+        <commentGenerator>  
+            <property name="javaFileEncoding" value="UTF-8"/>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="false" />
+            <property name="suppressDate" value="true" />  
+        </commentGenerator>  
+        <!--数据库URL -->  
+        <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver" connectionURL="jdbc:oracle:thin:@10.52.2.238:1521:orcl" userId="rm" password="rm_qianchi">
+        </jdbcConnection>  
+        <javaTypeResolver>  
+            <property name="forceBigDecimals" value="false"/>  
+        </javaTypeResolver>  
+        <!-- model路径-->  
+        <javaModelGenerator targetPackage="com.dc.dlsb.model" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>  
+            <property name="trimStrings" value="true"/>  
+        </javaModelGenerator>  
+        <!-- mapper路径-->  
+        <sqlMapGenerator targetPackage="com.dc.dlsb.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>  
+        </sqlMapGenerator>  
+        <!-- Dao路径-->  
+        <javaClientGenerator type="MAPPER" targetPackage="com.dc.dlsb.dao" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>  
+        </javaClientGenerator>  
+          
+        <!-- tablename表，domainObjectName 实体--> 
+        <table tableName="DME_DRC_DDRB_CFG_W" domainObjectName="DmeDrcDdrbCfg"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <!--<table tableName="SUMFGPDATA2" domainObjectName="DmeDrcSumFgpData"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>
+        <table tableName="SUMJZDATA2" domainObjectName="DmeDrcSumJzData"   enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"></table>-->
+    </context>
+</generatorConfiguration>  

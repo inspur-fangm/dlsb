@@ -1,0 +1,119 @@
+server:
+  port: 8083
+  context-path: /dlsb
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+     # static-path-pattern: classpath:/resources
+  freemarker:
+    charset: UTF-8
+    allow-request-override: false
+    allow-session-override: false
+    cache: true
+    check-template-location: true
+    content-type: text/html
+    enabled: true
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: true
+    prefer-file-system-access: true
+    suffix: .ftl
+    template-loader-path: classpath:/templates/ftl
+    request-context-attribute: request
+  devtools:
+    restart:
+      enabled: true
+      #additional-paths: src/main/java
+      exclude: WEB-INF/**
+  redis:
+    database: 0
+    host: 10.52.2.117
+    #host: 127.0.0.1
+    port: 6379
+    password: dc
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  application:
+    name: oms-dlsb-web
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${server.port}
+    status-page-url: http://${spring.cloud.client.ipAddress}:${server.port}${server.context-path}/login.html
+  client:
+    service-url:
+      defaultZone:  http://dechi:dechi@10.52.2.117:8761/eureka/
+      #defaultZone:  http://dechi:dechi@127.0.0.1:8761/eureka/
+dc:
+  SYS_NAME: 电量上报
+  SYS_LOGO: icon/nw-logo.png
+  DF_USER_PWD: 123456
+  SYS_RIGHT: <span class="bigger-120"><span class="blue bolder">测试XXX</span>  应用系统&copy; 2017</span> &nbsp; &nbsp;
+  SYS_THEME: MS
+  SYS_FOLDER_ID: ueditor
+  IP_DB_FILE: classpath:ip2region.db
+  api:
+    base:
+      key: dechi
+      pw: dechi
+    dcsb:
+      key: dechi  
+      pw: dechi
+logging:
+  config: classpath:logback.xml
+shiro:
+  filter-chain-definitions:
+    - name: /test.html
+      value: anon
+    - name: /webjars/**
+      value: anon
+    - name: /resources/**
+      value: anon
+  session-time-out: 7200
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+      default:
+        execution:
+          isolation:
+            thread:
+              timeoutInMilliseconds: 60000           
+#web层常量配置
+dlsb:
+  sbdate:
+    sthour: 0  #填报开始时间(小时数0是以0:00开始填报)
+    enhour: 20  #填报结束时间(当天小时数18是到19:00截止填报)
+oms:
+  dlsb:
+    dclx:
+      - name: 1
+        value: 火电厂
+      - name: 2
+        value: 水电厂
+      - name: 3
+        value: 统购小水电
+      - name: 4
+        value: 风电
+      - name: 5
+        value: 光伏
+      - name: 6
+        value: 其它电厂
+      - name: 7
+        value: 下网电量,供周边
+      - name: 8
+        value: 地县购小电
+excelmodel:
+  dlsbmodel: classpath:dlsbMod.xls
+
+
+  
+          

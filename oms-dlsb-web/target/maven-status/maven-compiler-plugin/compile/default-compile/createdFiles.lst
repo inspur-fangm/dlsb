@@ -1,0 +1,5 @@
+META-INF\spring-configuration-metadata.json
+com\dc\common\DclxCfg.class
+com\dc\dlsbcontroller\DlsbController.class
+com\dc\OmsDlsbWebApplication.class
+com\dc\ServletInitializer.class

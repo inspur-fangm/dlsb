@@ -1,0 +1,994 @@
+09:08:13 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+09:08:13 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+09:08:15 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+09:08:19 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+09:11:13 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) order by dlsb_px asc 
+09:11:13 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: %火电厂%(String)
+09:11:22 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) order by dlsb_px asc 
+09:11:22 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: %其它电厂%(String)
+09:16:43 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+09:16:48 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+09:25:54 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) order by dlsb_px asc 
+09:25:54 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: %水电厂%(String)
+10:42:51 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+10:42:56 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+10:43:44 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+10:43:51 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+10:46:00 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+10:46:00 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+10:46:02 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+10:46:05 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+10:51:59 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+10:51:59 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+10:52:01 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+10:52:05 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+11:03:25 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+11:03:25 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+11:03:28 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+11:03:35 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+11:22:56 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) order by dlsb_px asc 
+11:22:57 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: %水电厂%(String)
+11:22:57 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 24
+11:23:02 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:02 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 3220(String), 2019-08-04(String)
+11:23:02 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:23:07 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:07 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 77905(String), 2019-08-04(String)
+11:23:07 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 60481(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 32620(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 28658(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 100003(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 110636(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 3244(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 99188(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 110634(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 66344(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 36832(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 110733(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 110731(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 3252(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 110719(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 120000(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: XYT001(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: DYD0001(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: XSDC0001(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:23:12 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:23:12 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: WJKZ0001(String), 2019-08-04(String)
+11:23:12 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:29:03 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) order by dlsb_px asc 
+11:29:03 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: %统购小水电%(String)
+11:29:04 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 44
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80053(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80067(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80087(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 80091(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 80103(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 80027(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 80039(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80047(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80051(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 80075(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80071(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80095(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80097(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 80099(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 80101(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 110642(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 110645(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80033(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80073(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 80085(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80059(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80041(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80049(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 80069(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 110750(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 80061(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 80055(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80057(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80093(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 80029(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80063(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80081(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 110643(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 110646(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 80037(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 110735(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 80045(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80079(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80083(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 110644(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80105(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80031(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80077(String), 2019-08-04(String)
+11:29:09 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:43:56 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) order by dlsb_px asc 
+11:43:56 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: %水电厂%(String)
+11:43:56 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 24
+11:44:01 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 72810(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 77905(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 71682(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 60481(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 32620(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 28658(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 100003(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 110636(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 3244(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 99188(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 110634(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 66344(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 36832(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 110733(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 110731(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 3252(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 110719(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 120000(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: XYT001(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: DYD0001(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: XSDC0001(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:44:01 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:44:01 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: WJKZ0001(String), 2019-08-04(String)
+11:44:01 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:46:39 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) order by dlsb_px asc 
+11:46:39 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: %统购小水电%(String)
+11:46:39 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 44
+11:46:44 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:44 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 80053(String), 2019-08-04(String)
+11:46:44 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80091(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80103(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 80027(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80039(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80047(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80051(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 80075(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 80071(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 80095(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 80097(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80099(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80101(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 110642(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 110645(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80033(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80073(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 80085(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 80059(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 80041(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 80049(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80069(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 110750(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 80061(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80055(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80057(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80093(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 80029(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 80063(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 80081(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 110643(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 110646(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80037(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 110735(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80045(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80079(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80083(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 110644(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 80105(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 80031(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:46:49 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:46:49 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 80077(String), 2019-08-04(String)
+11:46:49 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:47:53 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) order by dlsb_px asc 
+11:47:53 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: %统购小水电%(String)
+11:47:53 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 44
+11:47:58 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:58 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80053(String), 2019-08-04(String)
+11:47:58 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:47:58 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:58 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80067(String), 2019-08-04(String)
+11:47:58 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:47:58 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:58 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80087(String), 2019-08-04(String)
+11:47:58 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:47:58 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:58 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 80091(String), 2019-08-04(String)
+11:47:58 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 80103(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 80027(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 80039(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80047(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80051(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 80075(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80071(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80095(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80097(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 80099(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 80101(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 110642(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 110645(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80033(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80073(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 80085(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80059(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80041(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80049(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 80069(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 110750(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 80061(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 80055(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80057(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80093(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 80029(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80063(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80081(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 110643(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 110646(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 80037(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 110735(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 80045(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80079(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80083(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 110644(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80105(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80031(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:47:59 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:47:59 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80077(String), 2019-08-04(String)
+11:47:59 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:48:02 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) order by dlsb_px asc 
+11:48:02 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: %光伏%(String)
+11:48:02 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 23
+11:48:02 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:02 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: XFGF0001(String), 2019-08-04(String)
+11:48:02 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:48:02 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:02 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: ZJYGF0001(String), 2019-08-04(String)
+11:48:02 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:48:02 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:02 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: CQTGF0001(String), 2019-08-04(String)
+11:48:02 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:48:02 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:02 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 110745(String), 2019-08-04(String)
+11:48:02 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:48:02 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:02 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 110747(String), 2019-08-04(String)
+11:48:02 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:48:02 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:02 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: QLGF0005(String), 2019-08-04(String)
+11:48:02 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:48:02 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:02 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: ZKGF0006(String), 2019-08-04(String)
+11:48:02 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:48:02 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:02 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: BWGF0007(String), 2019-08-04(String)
+11:48:02 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:48:02 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:02 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: SSQGF0008(String), 2019-08-04(String)
+11:48:02 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: GPGF0009(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: DSSS0011(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: LDLD0012(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: DSAJ0013(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: YLGF0014(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: WNXGS0015(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 110678(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 110755(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: WYGF0016(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: JHH0017(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: MSGF0010(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: WNZLZ0018(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: XBLGF0019(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: EMZGF0020(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) or( CFG_TYPE like ? ) order by dlsb_px asc 
+11:48:03 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: %下网电量%(String), %供周边%(String)
+11:48:03 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 14
+11:48:03 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 180737(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 180738(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 180739(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: GYXWDL0004(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: LPSXWDL0006(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: ZYXWDL0009(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: ASXWDL0002(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: TRXWDL0007(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: XYXWDL0008(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: BJXWDL0001(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: KLXWDL0005(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: DYXWDL0003(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: GAXWDL0014(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:48:03 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:03 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 180740(String), 2019-08-04(String)
+11:48:03 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:48:05 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( DLLDB_ID = ? ) 
+11:48:05 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: TRXWDL0007(String)
+11:48:05 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 1
+11:48:05 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:05 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: TRXWDL0007(String), 2019-08-04(String)
+11:48:05 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) or( CFG_TYPE like ? ) order by dlsb_px asc 
+11:48:09 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: %下网电量%(String), %供周边%(String)
+11:48:09 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 14
+11:48:09 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 180737(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 180738(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 180739(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: GYXWDL0004(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: LPSXWDL0006(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: ZYXWDL0009(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: ASXWDL0002(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: TRXWDL0007(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: XYXWDL0008(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: BJXWDL0001(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: KLXWDL0005(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: DYXWDL0003(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: GAXWDL0014(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+11:48:09 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+11:48:09 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 180740(String), 2019-08-04(String)
+11:48:09 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+11:59:16 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+11:59:16 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+11:59:19 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+11:59:22 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+12:05:25 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+12:05:25 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+12:05:29 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+12:05:37 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+12:08:32 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+12:08:32 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 
+12:08:32 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 202
+13:49:59 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+13:49:59 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+13:50:01 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+13:50:05 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+13:52:50 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) order by dlsb_px asc 
+13:52:50 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: %统购小水电%(String)
+13:52:50 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 44
+13:52:55 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:52:55 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 80053(String), 2019-08-04(String)
+13:52:55 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+13:53:00 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:00 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80087(String), 2019-08-04(String)
+13:53:00 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+13:53:05 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:05 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 80103(String), 2019-08-04(String)
+13:53:05 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+13:53:05 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:05 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 80027(String), 2019-08-04(String)
+13:53:05 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+13:53:05 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:05 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 80039(String), 2019-08-04(String)
+13:53:05 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+13:53:05 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:05 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80047(String), 2019-08-04(String)
+13:53:05 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+13:53:05 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:05 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80051(String), 2019-08-04(String)
+13:53:05 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+13:53:05 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:05 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80075(String), 2019-08-04(String)
+13:53:05 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+13:53:05 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:05 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 80071(String), 2019-08-04(String)
+13:53:05 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+13:53:05 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:05 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80095(String), 2019-08-04(String)
+13:53:05 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+13:53:05 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:05 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80097(String), 2019-08-04(String)
+13:53:05 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+13:53:05 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:05 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 80099(String), 2019-08-04(String)
+13:53:05 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 80101(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 110642(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 110645(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80033(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80073(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80085(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 80059(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80041(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80049(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 80069(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 110750(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 80061(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 80055(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80057(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80093(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 80029(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 80063(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80081(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 110643(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 110646(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 80037(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 110735(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:06 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 80045(String), 2019-08-04(String)
+13:53:06 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+13:53:06 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:07 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: 80079(String), 2019-08-04(String)
+13:53:07 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+13:53:07 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:07 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 80083(String), 2019-08-04(String)
+13:53:07 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+13:53:07 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:07 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 110644(String), 2019-08-04(String)
+13:53:07 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+13:53:07 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:07 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 80105(String), 2019-08-04(String)
+13:53:07 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+13:53:07 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:07 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 80031(String), 2019-08-04(String)
+13:53:07 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+13:53:07 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+13:53:07 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 80077(String), 2019-08-04(String)
+13:53:07 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+14:04:46 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+14:04:46 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:04:48 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+14:04:51 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+14:05:29 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+14:05:29 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:05:31 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+14:05:35 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+14:06:17 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) order by dlsb_px asc 
+14:06:17 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: %光伏%(String)
+14:06:17 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 23
+14:06:22 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: ZJYGF0001(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: CQTGF0001(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 110745(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 110747(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: QLGF0005(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: ZKGF0006(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: BWGF0007(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: SSQGF0008(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: GPGF0009(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: DSSS0011(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: LDLD0012(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: DSAJ0013(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: YLGF0014(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: WNXGS0015(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-5] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 110678(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 110755(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: WYGF0016(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-9] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-9] DEBUG selectByExample - ==> Parameters: JHH0017(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-9] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: MSGF0010(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: WNZLZ0018(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: XBLGF0019(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 0
+14:06:22 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, OI_IDF, OI_NAME, OI_TYPE, DATA_TYPE, DATADATEF, ABASEDATA, JLSJ from SUMFGPDATA2 WHERE ( OI_IDF = ? and DATADATEF = ? ) 
+14:06:22 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: EMZGF0020(String), 2019-08-04(String)
+14:06:22 [http-nio-8075-exec-3] DEBUG selectByExample - <==      Total: 0
+14:06:26 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+14:06:26 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 
+14:06:26 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 202
+14:06:52 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+14:06:52 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 
+14:06:53 [http-nio-8075-exec-7] DEBUG selectByExample - <==      Total: 202
+14:10:06 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+14:10:06 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:10:09 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+14:10:13 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+14:12:03 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+14:12:03 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 
+14:12:03 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 202
+14:15:07 [http-nio-8075-exec-2] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+14:15:07 [http-nio-8075-exec-2] DEBUG selectByExample - ==> Parameters: 
+14:15:07 [http-nio-8075-exec-2] DEBUG selectByExample - <==      Total: 202
+14:23:16 [http-nio-8075-exec-4] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+14:23:16 [http-nio-8075-exec-4] DEBUG selectByExample - ==> Parameters: 
+14:23:16 [http-nio-8075-exec-4] DEBUG selectByExample - <==      Total: 202
+14:23:52 [http-nio-8075-exec-6] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+14:23:52 [http-nio-8075-exec-6] DEBUG selectByExample - ==> Parameters: 
+14:23:52 [http-nio-8075-exec-6] DEBUG selectByExample - <==      Total: 202
+14:24:51 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+14:24:51 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 
+14:24:51 [http-nio-8075-exec-8] DEBUG selectByExample - <==      Total: 202
+14:31:46 [http-nio-8075-exec-10] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+14:31:46 [http-nio-8075-exec-10] DEBUG selectByExample - ==> Parameters: 
+14:31:46 [http-nio-8075-exec-10] DEBUG selectByExample - <==      Total: 202
+15:09:46 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+15:09:53 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+15:11:19 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+15:11:19 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: 
+15:11:19 [http-nio-8075-exec-1] DEBUG selectByExample - <==      Total: 202
+15:22:11 [http-nio-8075-exec-3] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+15:22:11 [http-nio-8075-exec-3] DEBUG selectByExample - ==> Parameters: 
+15:24:24 [http-nio-8075-exec-5] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+15:24:24 [http-nio-8075-exec-5] DEBUG selectByExample - ==> Parameters: 
+15:56:15 [http-nio-8075-exec-7] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+15:56:15 [http-nio-8075-exec-7] DEBUG selectByExample - ==> Parameters: 
+16:28:16 [http-nio-8075-exec-8] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W 
+16:28:16 [http-nio-8075-exec-8] DEBUG selectByExample - ==> Parameters: 
+16:33:39 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+16:33:39 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+16:39:12 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+16:39:12 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+16:39:19 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+16:39:23 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+17:13:54 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+17:13:58 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+17:14:20 [localhost-startStop-1] DEBUG XssFilter - xss filter init
+17:14:20 [restartedMain] DEBUG LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+17:14:22 [restartedMain] DEBUG VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+17:14:25 [restartedMain] DEBUG CustomMVCConfiguration - 统一编码
+17:19:06 [http-nio-8075-exec-1] DEBUG selectByExample - ==>  Preparing: select 'true' as QUERYID, ID, CZPXT_ID, DLLDB_ID, FHYC_ID, WDS_NEW_ID, SCADA_ID, OMS_ID, NAME, CFG_TYPE, MQ_NEW_ID, PX, IS_STOP, WDS_RTUID, QJNY_POWER_ID, OMS_ORGID, SB_OMS_ORGID, OMS_DC_ID, DLSB_PX, TJ_ID from DME_DRC_DDRB_CFG_W WHERE ( CFG_TYPE like ? ) or( CFG_TYPE like ? ) order by dlsb_px asc 
+17:19:06 [http-nio-8075-exec-1] DEBUG selectByExample - ==> Parameters: %下网电量%(String), %供周边%(String)
